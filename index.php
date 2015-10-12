@@ -57,7 +57,7 @@ class TmMS_Controller extends TmMS {
 		add_action('wp_head', array(&$this, 'wp_head'),1);
 		add_action('admin_head', array(&$this, 'admin_head'));
 		add_action('admin_menu', array(&$this, 'admin_menu'));
-		add_action('widgets_init', array(&$this, 'widgets_init'), 90);
+
 		//***
 		$this->template = new TmMS_Template();
 		$this->user = new TmMS_User();
@@ -116,7 +116,7 @@ class TmMS_Controller extends TmMS {
 			var mail_subscriber_lang4 = "<?php _e("Please type your name", 'newsplus') ?>";
 			var mail_subscriber_lang5 = "<?php _e("Please type your email", 'newsplus') ?>";
 		</script>
-		<?php
+	<?php
 	}
 
 	public function admin_head() {
@@ -145,7 +145,7 @@ class TmMS_Controller extends TmMS {
 			var mail_subscriber_lang7 = "<?php _e("Posts are sent to users", 'newsplus'); ?>";
 			var mail_subscriber_lang8 = "<?php _e("Please create one post template!", 'newsplus'); ?>";
 		</script>
-		<?php
+	<?php
 	}
 
 	public function admin_menu() {
@@ -261,4 +261,5 @@ class TmMS_Controller extends TmMS {
 
 $tm_ms_controller = new TmMS_Controller();
 add_action('init', array(&$tm_ms_controller, 'init'), 1, 1);
+add_action('widgets_init', array(&$tm_ms_controller, 'widgets_init'), 90);
 register_activation_hook(__FILE__, array('TmMS_Controller', 'install'));
