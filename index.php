@@ -4,7 +4,7 @@
   Plugin URI: http://codecanyon.net/user/ThemeMakers/portfolio
   Description: Great mail and news subscription service, which always keeps your users informed about latest news and events. It is easy in use, nice looking in design and functional in work. Everything is ready for work – no more long settings, go ahead and keep up your subscribers with newest tidings ever!
   Author: ThemeMakers
-  Version: 1.0.2
+  Version: 1.0.3
   Author URI: http://codecanyon.net/user/ThemeMakers
  */
 
@@ -110,7 +110,7 @@ class TmMS_Controller extends TmMS {
 	}
 
 	public function wp_head() {
-		wp_enqueue_style('tm_mail_subscriber_styles', THEMEMAKERS_MAIL_SUBSCRIBER_LINK . 'css/front/styles.css');
+		wp_enqueue_style('tm_mail_subscriber_style', THEMEMAKERS_MAIL_SUBSCRIBER_LINK . 'css/front/style.css');
 		?>
 		<script type="text/javascript">
 			var mail_subscriber_lang4 = "<?php _e("Please type your name", 'newsplus') ?>";

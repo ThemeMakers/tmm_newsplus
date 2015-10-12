@@ -1,0 +1,681 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NewsPlus WP NewsLetter Plugin\n"
+"POT-Creation-Date: 2015-10-12 11:32+0200\n"
+"PO-Revision-Date: 2015-10-12 11:32+0200\n"
+"Last-Translator: Alex TM <support@webtemplatemasters.com>\n"
+"Language-Team: Alex TM <support@webtemplatemasters.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/heap.php:29
+msgid "User name"
+msgstr ""
+
+#: classes/heap.php:30
+msgid "Current data"
+msgstr ""
+
+#: classes/heap.php:31
+msgid "Start of post cycle"
+msgstr ""
+
+#: classes/heap.php:32
+msgid "End of post cycle"
+msgstr ""
+
+#: classes/heap.php:33
+msgid "Post Title"
+msgstr ""
+
+#: classes/heap.php:34
+msgid "Post content"
+msgstr ""
+
+#: classes/heap.php:35
+msgid "Post excerpt"
+msgstr ""
+
+#: classes/heap.php:36
+msgid "Post permalink"
+msgstr ""
+
+#: classes/heap.php:41
+msgid "Newsplus"
+msgstr ""
+
+#: classes/heap.php:53 index.php:142
+msgid "Remove from heap"
+msgstr ""
+
+#: classes/heap.php:55 index.php:141
+msgid "Add to heap"
+msgstr ""
+
+#: classes/heap.php:119
+#, php-format
+msgid "Post \"%s\" already in heap"
+msgstr ""
+
+#: classes/heap.php:130
+#, php-format
+msgid "Post \"%s\" added in heap"
+msgstr ""
+
+#: classes/heap.php:150
+#, php-format
+msgid "Post \"%s\" removed from heap"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:13
+msgid "NewsPlus"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:14
+msgid "Mail"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:15
+#: classes/post_types/mail_subscriber.php:16
+msgid "Add New Mail"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:17
+msgid "Edit Mail"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:18
+msgid "New Mail"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:19
+msgid "View Mail"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:20
+msgid "Search Mails"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:21
+msgid "No Mails found"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:22
+msgid "No Mails found in Trash"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:46
+#: classes/post_types/mail_subscriber.php:47
+msgid "Mail Groups"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:48
+#: classes/post_types/mail_subscriber.php:49
+msgid "Add New Mail Group"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:50
+msgid "Edit Mail Group"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:51
+msgid "New Mail Group"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:52
+msgid "View Mail Group"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:53
+msgid "Search Mail Groups"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:54
+msgid "No Mail Groups found"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:55
+msgid "No Mail Groups found in Trash"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:58
+msgid "mail_subscriber_type"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:77
+msgid "Mail constructor"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:78
+msgid "Mail statistic"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:88
+#: views/widgets/newsletters_subscriptions_form.php:3
+msgid "Title"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:89
+msgid "Template"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:90
+msgid "Email subject"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:91
+msgid "Date"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:125
+msgid "Check e-mail groups!"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:126
+msgid "Please confirm letter sending!"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:127
+msgid "All emails successfully sent!"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:128
+msgid "Your email has been sent"
+msgstr ""
+
+#: classes/post_types/mail_subscriber.php:176 classes/statistic.php:42
+#: classes/user.php:21
+msgid "Subscribed"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:13
+msgid "Post Templates"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:14
+msgid "Post Template"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:15
+#: classes/post_types/mail_subscriber_template.php:16
+msgid "Add New Post Template"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:17
+msgid "Edit Post Template"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:18
+msgid "New Post Template"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:19
+msgid "View Post Template"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:20
+msgid "Search Post Template"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:21
+msgid "No Post Templates found"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:22
+msgid "No Post Templates found in Trash"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:58
+msgid "Template constructor"
+msgstr ""
+
+#: classes/post_types/mail_subscriber_template.php:59
+msgid "Snippets"
+msgstr ""
+
+#: classes/post_types/post_types.php:25 classes/post_types/post_types.php:26
+msgid "Duplicate"
+msgstr ""
+
+#: classes/post_types/post_types.php:46
+msgid "Copy"
+msgstr ""
+
+#: classes/statistic.php:38
+msgid "Subscribed Users/Unsubscribed Users"
+msgstr ""
+
+#: classes/statistic.php:43
+msgid "Not subscribed"
+msgstr ""
+
+#: classes/statistic.php:49
+msgid "Subscribers by Category"
+msgstr ""
+
+#: classes/statistic.php:63
+msgid "Unsubscribed users (current month)"
+msgstr ""
+
+#: classes/statistic.php:64 classes/statistic.php:67
+msgid "Days"
+msgstr ""
+
+#: classes/statistic.php:68
+msgid "Count"
+msgstr ""
+
+#: classes/statistic.php:100 views/admin/statistic/dashboard_widget.php:40
+msgid "Emails have been sent by groups"
+msgstr ""
+
+#: classes/statistic.php:305
+msgid "Users subscribed"
+msgstr ""
+
+#: classes/user.php:145
+msgid "Please try another username. Such name already exists"
+msgstr ""
+
+#: classes/user.php:151
+msgid "Please type correct mail address"
+msgstr ""
+
+#: classes/user.php:157
+msgid "Wrong email!"
+msgstr ""
+
+#: classes/user.php:163
+msgid "Such email already exists"
+msgstr ""
+
+#: classes/user.php:178
+msgid "Please confirm your registration"
+msgstr ""
+
+#: classes/user.php:179
+msgid "Subscription confirmation"
+msgstr ""
+
+#: classes/user.php:182
+msgid ""
+"Congratulations! You have been successfully subscribed to our newsletter. "
+"Please check your mailbox and confirm your current subscription."
+msgstr ""
+
+#: classes/user.php:192
+msgid "Such data doesn't exist"
+msgstr ""
+
+#: classes/user.php:206
+msgid "User subscription"
+msgstr ""
+
+#: classes/user.php:207 views/admin/settings_page.php:148
+msgid "Hello __USERNAME__! Your password is: __PASSWORD__"
+msgstr ""
+
+#: classes/user.php:222
+msgid "Wrong data"
+msgstr ""
+
+#: classes/user.php:227
+msgid ""
+"Thank you for signing up. Your e-mail address has been successfully added to "
+"our subscription list!"
+msgstr ""
+
+#: classes/user.php:234
+msgid "Server error. Please try again later."
+msgstr ""
+
+#: index.php:116
+msgid "Please type your name"
+msgstr ""
+
+#: index.php:117
+msgid "Please type your email"
+msgstr ""
+
+#: index.php:124
+msgid "Newsplus Statistic"
+msgstr ""
+
+#: index.php:135
+msgid ""
+"Paused. Please do not reload browser page untill letters/messages are "
+"sending!"
+msgstr ""
+
+#: index.php:136
+msgid "Saved"
+msgstr ""
+
+#: index.php:137
+msgid "Subscriber status has been updated"
+msgstr ""
+
+#: index.php:138
+msgid "No recipients"
+msgstr ""
+
+#: index.php:139
+msgid "Loading ..."
+msgstr ""
+
+#: index.php:140
+msgid "None of users subscribes with groups selected"
+msgstr ""
+
+#: index.php:143
+msgid "remove"
+msgstr ""
+
+#: index.php:144 views/front/user_cabinet.php:43
+msgid "Sure?"
+msgstr ""
+
+#: index.php:145
+msgid "Posts are sent to users"
+msgstr ""
+
+#: index.php:146
+msgid "Please create one post template!"
+msgstr ""
+
+#: index.php:152
+msgid "Newsplus settings"
+msgstr ""
+
+#: index.php:152
+msgid "Settings"
+msgstr ""
+
+#: index.php:153
+msgid "Newsplus templates"
+msgstr ""
+
+#: index.php:153
+msgid "Templates"
+msgstr ""
+
+#: index.php:154
+msgid "Post templates"
+msgstr ""
+
+#: index.php:210
+msgid "To stop receiving these emails, you may"
+msgstr ""
+
+#: index.php:210 views/widgets/newsletters_subscriptions.php:18
+msgid "Manage your subscriptions"
+msgstr ""
+
+#: views/admin/prepared_posts_content.php:13
+msgid "No one post template created"
+msgstr ""
+
+#: views/admin/prepared_posts_content.php:13
+msgid "Create a new one here"
+msgstr ""
+
+#: views/admin/prepared_posts_content.php:30
+msgid "Send letters"
+msgstr ""
+
+#: views/admin/pt_mail_subscriber/meta_panel.php:110
+#: views/admin/pt_mail_subscriber_template/meta_panel.php:122
+msgid "Email Templates"
+msgstr ""
+
+#: views/admin/pt_mail_subscriber/meta_panel.php:121
+msgid "Email Subject"
+msgstr ""
+
+#: views/admin/pt_mail_subscriber/meta_panel.php:127
+msgid "Send mails to subscribers"
+msgstr ""
+
+#: views/admin/pt_mail_subscriber/meta_panel.php:128
+msgid "Send mail to emails from textarea"
+msgstr ""
+
+#: views/admin/pt_mail_subscriber/meta_panel.php:133
+msgid "ERRORS"
+msgstr ""
+
+#: views/admin/pt_mail_subscriber/meta_panel.php:135
+msgid "Send letter"
+msgstr ""
+
+#: views/admin/pt_mail_subscriber/stat_panel.php:2
+msgid "Sent"
+msgstr ""
+
+#: views/admin/pt_mail_subscriber/stat_panel.php:14
+msgid "Referred by link"
+msgstr ""
+
+#: views/admin/pt_mail_subscriber/stat_panel.php:15
+msgid "users"
+msgstr ""
+
+#: views/admin/settings_page.php:20
+msgid "Newsplus's Docs"
+msgstr ""
+
+#: views/admin/settings_page.php:21
+msgid "Visit Forum"
+msgstr ""
+
+#: views/admin/settings_page.php:25
+msgid "Save Settings"
+msgstr ""
+
+#: views/admin/settings_page.php:33
+msgid "General"
+msgstr ""
+
+#: views/admin/settings_page.php:34
+msgid "Subscribers"
+msgstr ""
+
+#: views/admin/settings_page.php:44
+msgid "Name From"
+msgstr ""
+
+#: views/admin/settings_page.php:51
+msgid ""
+"The sender's name which displays in \"From:\" field of subscriber's mailbox."
+msgstr ""
+
+#: views/admin/settings_page.php:58
+msgid "Subscribers Page ID"
+msgstr ""
+
+#: views/admin/settings_page.php:65
+msgid ""
+"Create a page for your subscribers to be able to manage their subscriptions "
+"by their own and place here the ID of that page."
+msgstr ""
+
+#: views/admin/settings_page.php:72
+msgid "Default Email Subject"
+msgstr ""
+
+#: views/admin/settings_page.php:79
+msgid "Type here a default email subject for your newsletter subscribers."
+msgstr ""
+
+#: views/admin/settings_page.php:86
+msgid "Default Email Address"
+msgstr ""
+
+#: views/admin/settings_page.php:93
+msgid "Type here a default email address for your newsletter subscribers."
+msgstr ""
+
+#: views/admin/settings_page.php:100
+msgid "Set the limit of Emails per minute"
+msgstr ""
+
+#: views/admin/settings_page.php:107
+msgid ""
+"Important notice: Some servers don't allow to send too much mails because of "
+"safety. We'd recommend to use a value of 50 mails per minute. In other case "
+"please contact your server's administrator to increase that limit."
+msgstr ""
+
+#: views/admin/settings_page.php:114
+msgid "Newsletter's Header"
+msgstr ""
+
+#: views/admin/settings_page.php:121
+msgid "Type here your newsletter's header text."
+msgstr ""
+
+#: views/admin/settings_page.php:128
+msgid "Newsletter's Footer"
+msgstr ""
+
+#: views/admin/settings_page.php:135
+msgid "Type here your newsletter's footer text."
+msgstr ""
+
+#: views/admin/settings_page.php:145
+msgid "New user's registration text"
+msgstr ""
+
+#: views/admin/settings_page.php:152
+msgid "Example: Hello __USERNAME__! Your password is: __PASSWORD__"
+msgstr ""
+
+#: views/admin/settings_page.php:159
+msgid "New user's registration mail subject"
+msgstr ""
+
+#: views/admin/settings_page.php:166
+msgid "Type here your new subscriber's \"Welcome\" text."
+msgstr ""
+
+#: views/admin/statistic/dashboard_widget.php:38
+msgid "Users by Status"
+msgstr ""
+
+#: views/admin/statistic/dashboard_widget.php:39
+msgid "Users by Category"
+msgstr ""
+
+#: views/admin/statistic/dashboard_widget.php:41
+msgid "Unsubscribed Users"
+msgstr ""
+
+#: views/admin/templates_page.php:6
+msgid "Newsplus Templates"
+msgstr ""
+
+#: views/admin/templates_page.php:21
+msgid "Author:"
+msgstr ""
+
+#: views/admin/templates_page.php:22
+msgid "Name:"
+msgstr ""
+
+#: views/admin/templates_page.php:23
+msgid "Layout:"
+msgstr ""
+
+#: views/admin/templates_page.php:24
+msgid "Create Email"
+msgstr ""
+
+#: views/front/user_cabinet.php:4
+msgid "Groups"
+msgstr ""
+
+#: views/front/user_cabinet.php:17
+msgid "Post categories"
+msgstr ""
+
+#: views/front/user_cabinet.php:30
+msgid "Posts count"
+msgstr ""
+
+#: views/front/user_cabinet.php:37
+msgid "Save options"
+msgstr ""
+
+#: views/front/user_cabinet.php:39
+msgid "Unsubscribe and remove my mail from database."
+msgstr ""
+
+#: views/widgets/newsletters_subscriptions.php:27
+msgid "enter your name *"
+msgstr ""
+
+#: views/widgets/newsletters_subscriptions.php:30
+msgid "enter your e-mail *"
+msgstr ""
+
+#: views/widgets/newsletters_subscriptions.php:31
+msgid "Sign Up"
+msgstr ""
+
+#: views/widgets/newsletters_subscriptions_form.php:8
+msgid "Text"
+msgstr ""
+
+#: widgets.php:9
+msgid "Newsletters Subscriptions"
+msgstr ""
+
+#: widgets.php:12
+msgid "ThemeMakers Newsletters Subscriptions"
+msgstr ""
+
+#: widgets.php:35
+msgid "Keep in touch with us"
+msgstr ""
+
+#: widgets.php:36
+msgid ""
+"Subscribe to our newsletters to keep up with our company latest news and "
+"events"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "NewsPlus WP NewsLetter Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://codecanyon.net/user/ThemeMakers/portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Great mail and news subscription service, which always keeps your users "
+"informed about latest news and events. It is easy in use, nice looking in "
+"design and functional in work. Everything is ready for work – no more long "
+"settings, go ahead and keep up your subscribers with newest tidings ever!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeMakers"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://codecanyon.net/user/ThemeMakers"
+msgstr ""
