@@ -9,7 +9,7 @@ var THEMEMAKERS_MAIL_SUBSCRIBER_META = function() {
 			//*** mark taxonomies checkboxes
 			jQuery("#mail_subscriber_typeschecklist").find(':checkbox').addClass('email_groups_values');
 			//***
-			jQuery("#email_layouts").change(function() {
+			jQuery(document).on('change', '#email_layouts', function() {
 				var template = jQuery(this).val();
 				jQuery.get(ms_uri + 'templates/' + template + '/layout.php', function(data) {
 					var posts_mail_template = jQuery("#posts_mail_template").val();
