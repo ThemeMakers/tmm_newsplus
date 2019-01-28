@@ -4,7 +4,7 @@
   Plugin URI: http://codecanyon.net/user/ThemeMakers/portfolio
   Description: Great mail and news subscription service, which always keeps your users informed about latest news and events. It is easy in use, nice looking in design and functional in work. Everything is ready for work – no more long settings, go ahead and keep up your subscribers with newest tidings ever!
   Author: ThemeMakers
-  Version: 1.0.4
+  Version: 1.0.5
   Author URI: http://codecanyon.net/user/ThemeMakers
  */
 
@@ -78,7 +78,7 @@ class TmMS_Controller extends TmMS {
 		}
 
 		//*** remove Post Templates from menu order
-		add_filter('custom_menu_order', create_function('', 'return true;'));
+		add_filter('custom_menu_order', function() {return true;});
 		add_filter('menu_order', array(&$this, 'remove_menu_items'));
 	}
 
@@ -151,7 +151,7 @@ class TmMS_Controller extends TmMS {
 	public function admin_menu() {
 		add_submenu_page("edit.php?post_type=" . $this->pt_mail_subscriber->slug, __("Newsplus settings", 'newsplus'), __("Settings", 'newsplus'), 'remove_users', 'tm_mail_subscriber_settings', array(&$this->settings, 'draw_settings_page'));
 		add_submenu_page("edit.php?post_type=" . $this->pt_mail_subscriber->slug, __("Newsplus templates", 'newsplus'), __("Templates", 'newsplus'), 'remove_users', 'tm_mail_subscriber_templates', array(&$this->template, 'draw_templates_page'));
-		add_submenu_page("edit.php?post_type=" . $this->pt_mail_subscriber->slug, __("Post templates", 'newsplus'), __("Post templates", 'newsplus'), 'remove_users', 'tm_mail_subscriber_posts_templates', create_function('', ''));
+		add_submenu_page("edit.php?post_type=" . $this->pt_mail_subscriber->slug, __("Post templates", 'newsplus'), __("Post templates", 'newsplus'), 'remove_users', 'tm_mail_subscriber_posts_templates', function() {});
 	}
 
 	function admin_notices() {
@@ -217,7 +217,7 @@ class TmMS_Controller extends TmMS {
 		//$headers .= 'To: <' . $email . '>' . "\r\n";
 
 		$headers .= 'From: ' . (!empty($settings['name_from']) ? $settings['name_from'] : get_option("blogname")) . ' <' . (!empty($settings['senders_mail_address']) ? $settings['senders_mail_address'] : get_option("admin_email")) . '>' . "\r\n";
-		add_filter('wp_mail_content_type', create_function('', 'return "text/html"; '));
+		add_filter('wp_mail_content_type', function() {return "text/html";});
 
 		$result_data = array();
 		$result_data['error'] = "";

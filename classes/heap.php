@@ -1,5 +1,4 @@
-<?php if (!defined('ABSPATH')) die('No direct access allowed'); ?>
-<?php
+<?php if (!defined('ABSPATH')) die('No direct access allowed');
 
 class TmMS_Heap extends TmMS {
 
@@ -47,7 +46,7 @@ class TmMS_Heap extends TmMS {
 		if ($column_name == 'mail_subscriber_posts') {
 			//I clicked this button and through ajax -> add_post_to_send_heap() -> $wpdb I set it in heap in table mail_subscriber_posts_heap
 			?>
-			<a data-post-id="<?php echo $post->ID ?>" data-post-title="<?php echo mysql_real_escape_string(get_the_title($post->ID)) ?>" href="javascript:void(0);" class="<?php if (in_array($post->ID, self::$posts_in_heap)): ?>button-primary<?php else: ?>button<?php endif; ?> add_post_to_send_heap">
+			<a data-post-id="<?php echo $post->ID ?>" data-post-title="<?php echo mysqli_real_escape_string(get_the_title($post->ID)) ?>" href="javascript:void(0);" class="<?php if (in_array($post->ID, self::$posts_in_heap)): ?>button-primary<?php else: ?>button<?php endif; ?> add_post_to_send_heap">
 				<?php
 				if (in_array($post->ID, self::$posts_in_heap)) {
 					_e('Remove from heap', 'newsplus');

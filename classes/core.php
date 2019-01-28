@@ -1,5 +1,4 @@
-<?php if (!defined('ABSPATH')) die('No direct access allowed'); ?>
-<?php
+<?php if (!defined('ABSPATH')) die('No direct access allowed');
 
 class TmMS {
 
@@ -17,7 +16,7 @@ class TmMS {
 		$headers = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 		$headers .= 'From: ' . (!empty($settings['name_from']) ? $settings['name_from'] : get_option("blogname")) . ' <' . $subject . '>' . "\r\n";
-		add_filter('wp_mail_content_type', create_function('', 'return "text/html"; '));
+		add_filter('wp_mail_content_type', function() {return "text/html";});
 		return wp_mail($email, $subject, $content, $headers, $attachments);
 	}
 
