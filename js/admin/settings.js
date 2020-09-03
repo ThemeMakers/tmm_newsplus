@@ -7,20 +7,18 @@ var THEMEMAKERS_MAIL_SUBSCRIBER_SETTINGS = function() {
 
 			self.init_tabs();
 
-			   jQuery("#tm_mail_subscriber_settings").show(self.show_delay, function() {
-				       mail_subscriber_options.hide_static_info_popup();
-			   });
+			jQuery("#tm_mail_subscriber_settings").show(self.show_delay, function () {
+				mail_subscriber_options.hide_static_info_popup();
+			});
 
 			//option_checkbox
-			jQuery(".option_checkbox").live('click', function() {
+			jQuery(document.body).on('click', '.option_checkbox', function() {
 				if (jQuery(this).is(":checked")) {
 					jQuery(this).next("input[type=hidden]").val(1);
 				} else {
 					jQuery(this).next("input[type=hidden]").val(0);
 				}
 			});
-
-
 
 			//*****
 			mail_subscriber_options.hide_static_info_popup();
