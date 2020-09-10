@@ -4,7 +4,7 @@
   Plugin URI: http://codecanyon.net/user/ThemeMakers/portfolio
   Description: Great mail and news subscription service, which always keeps your users informed about latest news and events. It is easy in use, nice looking in design and functional in work. Everything is ready for work – no more long settings, go ahead and keep up your subscribers with newest tidings ever!
   Author: ThemeMakers
-  Version: 1.0.5
+  Version: 1.0.6
   Author URI: http://codecanyon.net/user/ThemeMakers
  */
 
